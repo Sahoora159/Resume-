@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.cv-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #003366;
+  margin: 0;
+}
+
+header p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #003366;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  margin: 0;
+  color: #444;
+}
+
+.job p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.skills {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
